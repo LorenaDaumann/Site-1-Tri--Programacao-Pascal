@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    background-image: url("../imagens/rosinha.jpg");
+    /*min-height: 100hv;*/
+    height:1000px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*
+.fundo {
+    background-color: #1f5d27 !important;
+    /*topo*/
+/*}
+*/ 
+
+
+.header-img {
+    width: 400px;
+    height: 450px;
+    margin-top: 125px;
+    margin-bottom: 100px;
+}
+
+.header-title {
+    font-size: 70px;
+    color: #48b028;
+    -webkit-text-stroke-width: 3.5px;
+    -webkit-text-stroke-color: #1c4021;
+    text-shadow: -5px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.header-p {
+    font-size: 27px;
+    color: #ffffff;
+    -webkit-text-stroke-width: 0.5px;   
+    -webkit-text-stroke-color: #000000;
+    text-shadow: -5px 3px 10px rgba(75, 75, 75, 0.5);
+}
+
+.container-p {
+    font-size: 50px;
+}
+
+
+/*****************************************************************/
+/*****************************************************************/
+
+/*classe = ponto, id = hashtag*/
+
+
+
+h1 {
+    color: rgb(255, 90, 126);
+    font-size: 150px;
+    text-align: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+p {
+    font-size: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+
+.secao1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.secao1 img {
+    width: 360px;
+    transition: transform 0.3s;
+
+}
+
+.secao1 img:hover {
+    transform: scale(1.5);
+}
+
+/**************************************************************************************/
+
+.secao2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 40px 20px;
+}
+
+.secao2 .row {
+    width: 100%;
+}
+
+.secao2 .col-lg-6 {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+
+/******************************************************************************************************/
+
+.img-fluid {
+    border-radius: 35px 35px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #f083a3; 
+    color: white;              /* Cor do texto para contraste */
+    padding: 20px;             
+    text-align: center;        
+    width: 100%;               
+}
